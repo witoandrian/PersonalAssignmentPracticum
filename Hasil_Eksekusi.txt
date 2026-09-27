@@ -1,0 +1,26 @@
+Array traversal: [10, 20, 30, 40, 50]
+ArrayList traversal: [10, 20, 30, 40, 50]
+
+Pencarian linear nilai 30 pada Array: indeks 2
+Pencarian binary nilai 30 pada Array: indeks 2
+Pencarian nilai 30 pada ArrayList: indeks 2
+
+Array setelah penyisipan 25: [10, 20, 25, 30, 40, 50]
+ArrayList setelah penyisipan 25: [10, 20, 25, 30, 40, 50]
+
+Array setelah penghapusan indeks 4: [10, 20, 25, 30, 50]
+ArrayList setelah penghapusan indeks 4: [10, 20, 25, 30, 50]
+
+ArrayList setelah pengurutan: [10, 20, 30, 40, 50]
+
+Perbandingan waktu rata-rata (100000 elemen, 30 pengulangan)
++----------------------+----------------+----------------+----------------+
+| Operasi              | Array (ms)     | ArrayList (ms) | Lebih cepat    |
++----------------------+----------------+----------------+----------------+
+| Traversal            |       0.027999 |       0.084798 | Array          |
+| Linear search        |       0.016089 |       0.072990 | Array          |
+| Binary search        |       0.000652 |       0.001496 | Array          |
+| Penyisipan tengah    |       0.049405 |       0.120716 | Array          |
+| Penghapusan tengah   |       0.112829 |       0.006803 | ArrayList      |
+| Pengurutan           |       5.162193 |      16.147169 | Array          |
++----------------------+----------------+----------------+----------------+
